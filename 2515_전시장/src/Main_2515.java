@@ -72,7 +72,6 @@ class Painting {
 
 public class Main_2515 {
 
-
     public static void main(String[] args) throws IOException {
 
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -99,7 +98,7 @@ public class Main_2515 {
                             -> Integer.compare(painting1.getHeight(), painting2.getHeight()))
                     .collect(Collectors.toList());
 
-            cost[0] = paintings.get(0).getPrice(); 
+            cost[0] = paintings.get(0).getPrice();
             int idx = 0;
             int maxCost = 0;
             for (int i = 1; i < N; i++) {

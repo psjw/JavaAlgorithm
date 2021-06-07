@@ -4,7 +4,8 @@
     <bytecodeTargetLevel>
       <module name="10430" target="15" />
       <module name="acmpicpc" target="15" />
-      <module name="BinarySearch" target="15" />
+      <module name="BinarySearch" target="14" />
+      <module name="MinCoding_이사" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

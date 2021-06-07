@@ -3,6 +3,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 public class Main_2606 {
@@ -44,6 +45,10 @@ public class Main_2606 {
             StringTokenizer st;
             parent = new int[n + 1];
             rank = new int[n + 1];
+            for(int i =1; i<=n;i++){
+                parent[i] = i;
+            }
+
             for (int i = 1; i <= n; i++) {
                 parent[i] = i;
             }
