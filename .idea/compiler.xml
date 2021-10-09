@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="10430" target="15" />
+      <module name="1874_스택수열" target="15" />
       <module name="acmpicpc" target="15" />
       <module name="BinarySearch" target="15" />
     </bytecodeTargetLevel>
